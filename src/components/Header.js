@@ -16,7 +16,7 @@ export function Header(props) {
         )
       })
       return (
-        <Nav activeKey={window.location.pathname}>
+        <Nav activeKey="/">
           {Items}
         </Nav>
       )
